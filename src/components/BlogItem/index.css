@@ -1,0 +1,37 @@
+/* Write your CSS code here */
+.item-container {
+  border-color: black;
+  border-style: solid;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.heading {
+  font-size: 20px;
+}
+.para {
+  font-size: 10px;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-image {
+  height: 200px;
+  width: 200px;
+}
+
+.role {
+  font-size: small;
+  display: flex;
+  justify-content: center;
+}
